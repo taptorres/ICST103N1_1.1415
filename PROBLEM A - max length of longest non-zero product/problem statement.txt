@@ -1,0 +1,21 @@
+Exercise 1 | ICST103
+
+"Given space separated numbers be able to print the maximum length of the substring whose product is non-zero"
+
+i.e.
+
+INPUT
+
+1 0 9 8 0 2
+
+OUTPUT
+
+2
+
+INPUT
+
+1 0 1
+
+OUTPUT
+
+1
