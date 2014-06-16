@@ -1,3 +1,7 @@
+/* Could this work sir?
+			~Patrick Torres 
+*/
+
 #include<iostream>
 
 using namespace std;
@@ -33,26 +37,19 @@ int substr(int i, int n, int counter, int temp, int file[]){
 
 
 	for(i = 0;i < n;i++){			
-		if(file[i] == 0){
-			if(counter <= temp){
+		if(file[i] == 0){		
+			if(counter < temp){  
 				counter = temp;
 				temp = 0;}
-				}
-
-			else
+		}
+		else
 			temp++;
-
 
 	//cout << "Counter is now currently: " << counter << "     " << "Temp is now currently: " << temp << endl;
 
 	}
-		
-cout << endl << "Longest substring with non zero product is: ";
 
-	if(counter > temp)
-		cout << counter << endl;
-	else
-		cout << temp << endl;
+cout << endl << "Longest substring with non zero product is: " << counter << endl;
 
 }
 			
